@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>dashboard - orders</title>
+  </head>
+  <body>
+    <section class="container-fluid p-4 p-md-5">
+        
+        <div class="row">
+            <div class="col-12 col-md-8 border-end pe-md-5 mb-5 mb-md-0">
+                <div class="row mb-5">
+                    <h2>Customer Details</h2>
+                    <div class="col-12 col-md-auto">
+                        <div class="mb-4">
+                            <h6 class="fw-light text-muted small">Customer Name</h6>
+                            <p>John Doe</p>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="fw-light text-muted small">Customer Contact</h6>
+                            <p>JohnDoe@gmail.com</p>
+                            <p>+1 XXX XXX XXXX</p>
+                        </div>
+                        <div>
+                            <h6 class="fw-light text-muted small">Card Details</h6>
+                            <p>XXXX-XXXX-XXXX-XXXX</p>
+                            <div class="d-flex flex-row">
+                                <div class="w-100 me-3">
+                                    <h6 class="fw-light text-muted small">Expiry Date</h6>
+                                    <p>21/04/2021</p>
+                                </div>
+                                <div class="flex-shrink-1">
+                                    <h6 class="fw-light text-muted small">CVV</h6>
+                                    <p>XXX</p>
+                                </div>
+                            </div>
+                            <h6 class="fw-light text-muted small">Name on Card</h6>
+                            <p>John Doe</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md text-md-end">
+                        <div class="mb-4">
+                            <h6 class="fw-light text-muted small">Delivery Method</h6>
+                            <p>Delivery</p>
+                        </div>
+                        <div>
+                            <h6 class="fw-light text-muted small">Shipping Address</h6>
+                            <p>Yonge Street</p>
+                            <p>Toronto, ON</p>
+                            <p>Canada</p>
+                            <p>A1A 1A1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-12 col-md-auto mb-3 mb-md-0">
+                        <h2>Actions</h2>
+                        <div>
+                            <h6 class="fw-light text-muted small">Status</h6>
+                            <p>Processing</p>
+                            <h6 class="fw-light text-muted small">Status</h6>
+                            <div class="alert alert-dark py-1" role="alert">
+                                Still Processing
+                            </div>
+                            <div class="alert alert-dark py-1 mb-0" role="alert">
+                                Ready for Delivery
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col d-flex flex-column text-md-end">
+                        <div class="mb-3 mb-md-0">
+                            <button type="button" class="btn btn-danger">Cancel & Refund</button>
+                        </div>
+                        <div class="mt-auto">
+                            <button type="button" class="btn btn-primary">Add Discount</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column ps-md-5">
+                <h2>Order Summary <span class="text-muted">2</span></h2>
+                <div class="d-flex flex-row">
+                    <div class="w-100 me-3">
+                        <p>xxxxxxxxx</p>
+                    </div>
+                    <div class="flex-shrink-1">
+                        <p>$10.00</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex flex-row">
+                    <div class="w-100 me-3">
+                        <p>xxxxxxxxx</p>
+                    </div>
+                    <div class="flex-shrink-1">
+                        <p>$10.00</p>
+                    </div>
+                </div>
+                
+                <div class="col-4 bg-secondary text-light p-3 rounded d-grid w-100 mt-auto">
+                    <div class="w-100">
+                        <div class="row">
+                            <h6 class="col-auto fw-normal">Subtotal</h6>
+                            <h6 class="col-auto ms-auto fw-normal">$94.98</h6>
+                        </div>
+                        <div class="row">
+                            <h6 class="col-auto fw-normal">Tax</h6>
+                            <h6 class="col-auto ms-auto fw-normal">$0</h6>
+                        </div>
+                        <div class="row mb-4">
+                            <h6 class="col-auto fw-normal">Shipping</h6>
+                            <h6 class="col-auto ms-auto fw-normal">$0</h6>
+                        </div>
+                    </div>
+                    <div class="align-self-end w-100">
+                        <div class="row">
+                            <h6 class="col-auto mb-0">Total</h6>
+                            <h6 class="col-auto ms-auto fw-bold mb-0">$94.98</h6>
+                        </div>
+                    </div>
+                </div>
+                    
+                
+            </div>
+        </div>
+        
+    </section>
+  </body>
+</html>
